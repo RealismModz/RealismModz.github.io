@@ -12,31 +12,40 @@
          #CenterElements
          {
          position: absolute;
-         transform: translate(-50%, -50%);
-         top: 30%;
-         left: 50%;
-		 bottom: 15%;
+		 left: 25vw;
+		 top: 15vh
          }
          
-
-
+		 
          #CenterTitle
          {
-         padding-top: 50px;
-         font-size: 100px;
-         font-family: 'Black Ops One', cursive;
-         }
-
- 
+		 text-decoration: none;
+		 }
+		 a
+		 {
+		 text-decoration: none;
+		 }
+		 a.Link
+		 {
+		 font-family: 'Black Ops One', cursive;
+		 font-size: 20vh;
+		 color: #93a1a1;
+		 transition: all .3s;
+		 top: 10vh;
+		 }
+		 a.Link:hover
+		 {
+		 color: #FFFFFF;
+		 font-size: 21vh;
+		 }
 		 
          #CenterLinks
 		 {
-		 padding-top: 25px;
          display: flex;
          flex-direction: row;
          justify-content: space-around;
-         align-items: center;
          font-size: 65px;
+		 space-around: 2vw;
          }
          #CenterText
          {
@@ -73,12 +82,10 @@
          {
          color: #93a1a1;
          position: absolute;
-         text-align: center;
-         transform: translateX(-50%);
-         left: 50%;
-         top: 75%;
-		 font-size: 65px;
-         transition: all 10s;
+		 font-size: 12vh;
+         transition: all .4s;
+		 top: 65vh;
+		 left: 40vw;
          }
          a.Code:hover
          {
@@ -96,12 +103,14 @@
    <body>
       <div id="CenterElements">
 	 
- 
 
+         <div id="CenterTitle"></div>
+			<a class="Link" href="https://discord.com/users/731754693772181524">Realism</a>
+		 
+		 
 
-         <div id="CenterTitle">Realism</div>
+		 
          
-
          <div id="CenterLinks">
             <a class="CenterLink" href="https://github.com/RealismModz" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
             <a class="CenterLink" href="https://discord.gg/wfhsUpq" title="Discord" target="_blank"><i class="fab fa-discord"></i></a>
@@ -109,7 +118,6 @@
            <a class="CenterLink" href="https://twitter.com/RealismModz" title="twitter" target="_blank"><i class="fab fa-twitter-square"></i>
            <a class="CenterLink" href="mailto:IamRealismModz@gmail.com" title="email"><i class="far fa-envelope"></i></a>
            
-
          </div>
       </div>
       <a class="Code" href="https://github.com/RealismModz/RealismModz.io/" title="Source" target="_blank"><i class="fas fa-code"></i></a>									
